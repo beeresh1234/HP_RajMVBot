@@ -1590,10 +1590,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⚡ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ ⚡', callback_data='disclaimer'),
-            InlineKeyboardButton ('〽️ ꜱᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ 〽️', callback_data='source'),
+            InlineKeyboardButton('⚡ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ ⚡', url=f'https://t.me/+DWu_QXl2Ydg3N2Zl'),
+            InlineKeyboardButton ('〽️ ꜱᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ 〽️', url=f'https://t.me/+fzXLS_LbzSFjOTVl'),
         ],[
-            InlineKeyboardButton('💢 ʙᴀᴄᴋᴜᴩ 💢', callback_data='donation'), 
+            InlineKeyboardButton('💢 ʙᴀᴄᴋᴜᴩ 💢', url=f'https://t.me/HP_Raj_MOVIES'), 
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
