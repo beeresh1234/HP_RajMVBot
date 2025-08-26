@@ -1482,8 +1482,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             dreamcinezone = await query.edit_message_reply_markup(
                 reply_markup=InlineKeyboardMarkup([
                     [
-                        InlineKeyboardButton("⬇️ Download ", url=dreamx_download),
-                        InlineKeyboardButton('🖥️ Watch ', url=dreamx_stream)
+                        InlineKeyboardButton("• Download •", url=dreamx_download),
+                        InlineKeyboardButton('• Watch •', url=dreamx_stream)
                     ],
                     [
                         InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)
@@ -1506,7 +1506,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             photo="https://i.ibb.co/whf8xF7j/photo-2025-07-26-10-42-46-7531339305176793100.jpg", 
             caption=script.PRE_STREAM,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("🚀 Buy Premium 🚀", callback_data="premium_info")]
+                [InlineKeyboardButton("🚀 ʙᴜʏ ᴩʀᴇᴍɪᴜᴍ 🚀", callback_data="premium_info")]
             ])
         )
         await asyncio.sleep(DELETE_TIME)
@@ -1526,7 +1526,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='help'),
                     InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                 ],[
-                    InlineKeyboardButton('• ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ •', callback_data="topsearch"),
+                    InlineKeyboardButton('• ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ •', url=f'https://t.me/+DWu_QXl2Ydg3N2Zl'),
                      InlineKeyboardButton('•ᴜᴘɢʀᴀᴅᴇ •', callback_data="premium_info"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
